@@ -3,6 +3,8 @@
 namespace Titanium\LaravelApiInterfaceGen\Console;
 
 use Illuminate\Console\GeneratorCommand;
+use Illuminate\Support\Facades\Artisan;
+use Illuminate\Support\Facades\File;
 
 class MakeRepository extends GeneratorCommand
 {
@@ -31,6 +33,10 @@ class MakeRepository extends GeneratorCommand
     public function handle()
     {
         $this->createTheFile();
+        $serviceProviderPath = app_path('Providers/RepositoryServiceProvider');
+        if (!File::exists($serviceProviderPath)) {
+            Artisan::call('make:provider RepositoryServiceProvider');
+        }
     }
 
     protected function createTheFile()
