@@ -4,7 +4,7 @@ Provides useful artisan command to help generate repositories and interfaces.
 ## USAGE
 
 1. Installing
-To install run `composer require idtitanium/laravel-api-interface-gen`.
+To install run `composer require idtitanium/laravel-api-interface-gen`. Support Laravel version 6.1 or higher. Lower versions might not work so nicely.
 
 2. Making an Interface
 When you run `php artisan make:interface Book`. This will generate two folders (if they don't already exist). One called Repositories and inside it Interfaces. Then, the `BookRepostoryInterface` will be created inside the Interfaces folder.
