@@ -30,5 +30,6 @@
         "psr-4": {
             "Titanium\\LaravelApiInterfaceGen\\Tests\\": "tests"
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
