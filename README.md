@@ -13,4 +13,4 @@ With an assumption that you already have an interface called `BookRepositoryInte
 3. Making a Repsoitory and Interface.
 This is the best part of this package. when you run `php artisan make:repositoryinterface Book`. This creates both the repository and the interface in their respective folders and correct namespaces.
 
-## NOTE: This commands currently does not register the service provider in the app config. Also, it creates a service provider wihout the binding of the repository to the interface.
+#### NOTE: This commands currently does not register the service provider in the app config. Also, it creates a service provider wihout the binding of the repository to the interface.
