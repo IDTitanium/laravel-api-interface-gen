@@ -1,3 +1,7 @@
+[![Build Status](https://travis-ci.org/IDTitanium/laravel-api-interface-gen.svg?branch=master)](https://travis-ci.org/IDTitanium/laravel-api-interface-gen)
+![GitHub](https://img.shields.io/github/license/idtitanium/laravel-api-interface-gen)
+![Packagist Version](https://img.shields.io/packagist/v/idtitanium/laravel-api-interface-gen)
+
 # laravel-api-interface-gen
 Provides useful artisan command to help generate repositories and interfaces.
 
